@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Count />
-      <Select paragraph={'text -это просто пропс.'} />
+      <Select paragraph={'text -это просто пропс'} />
     </>
   );
 }
