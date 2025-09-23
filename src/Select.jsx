@@ -29,7 +29,7 @@ const Select = ({ paragraph }) => {
         ))}
       </select>
       <h2>{paragraph}</h2>
-      <h2>{paragraph === "text -это просто пропс." ? selectedTitle : paragraph}</h2>
+      <h2>{selectedTitle}</h2>
     </>
   );
 };
